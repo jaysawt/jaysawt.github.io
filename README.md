@@ -1,5 +1,3 @@
-# jaysawt.github.io
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,13 +9,15 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
+            background: #f4f4f4;
+            padding: 20px;
         }
         .container {
-            max-width: 800px;
-            margin: 20px auto;
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
             padding: 20px;
-            background: #f4f4f4;
-            border-radius: 8px;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         .header {
@@ -25,7 +25,7 @@
             margin-bottom: 20px;
         }
         .header h1 {
-            margin-bottom: 5px;
+            margin-bottom: 10px;
         }
         .header p {
             margin: 0;
@@ -36,11 +36,7 @@
         .section h2 {
             border-bottom: 2px solid #333;
             padding-bottom: 5px;
-            margin-bottom: 10px;
-        }
-        .contact-info, .languages, .interests, .achievements {
-            display: flex;
-            flex-direction: column;
+            margin-bottom: 15px;
         }
         .contact-info p, .languages p, .interests p, .achievements p {
             margin: 0;
@@ -93,11 +89,9 @@
         </div>
         <div class="section">
             <h2>Interests</h2>
-            <div class="interests">
-                <p>Playing football</p>
-                <p>Reading</p>
-                <p>Cooking</p>
-            </div>
+            <p>Playing football</p>
+            <p>Reading</p>
+            <p>Cooking</p>
         </div>
         <div class="section">
             <h2>Projects</h2>
@@ -136,18 +130,14 @@
         </div>
         <div class="section">
             <h2>Achievements</h2>
-            <div class="achievements">
-                <p>Secured 1st Place in Futsal Intercollege event</p>
-            </div>
+            <p>Secured 1st Place in Futsal Intercollege event</p>
         </div>
         <div class="section">
             <h2>Languages</h2>
-            <div class="languages">
-                <p>English</p>
-                <p>Hindi</p>
-                <p>Marathi</p>
-                <p>Konkani</p>
-            </div>
+            <p>English</p>
+            <p>Hindi</p>
+            <p>Marathi</p>
+            <p>Konkani</p>
         </div>
         <div class="section">
             <h2>Profile</h2>
