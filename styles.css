@@ -8,26 +8,27 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
+    max-width: 1000px;
     margin: auto;
     overflow: hidden;
     background: #fff;
     padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
-    background: #333;
+    background: #0779e4;
     color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #0779e4 3px solid;
+    padding: 20px;
     text-align: center;
+    border-bottom: 5px solid #005bb5;
 }
 
 header h1 {
-    text-transform: uppercase;
     margin: 0;
-    font-size: 24px;
+    font-size: 36px;
+    text-transform: uppercase;
 }
 
 .contact-info {
@@ -37,15 +38,23 @@ header h1 {
 .contact-info p, .contact-info a {
     margin: 5px 0;
     color: #fff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
 }
 
 section {
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 h2 {
     border-bottom: 2px solid #0779e4;
     padding-bottom: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 0;
 }
 
 ul {
@@ -64,4 +73,31 @@ ul li {
     background: none;
     border-left: none;
     padding-left: 0;
+}
+
+.job, .project {
+    margin: 10px 0;
+}
+
+.job h3, .project h3 {
+    margin: 5px 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    header h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
 }
