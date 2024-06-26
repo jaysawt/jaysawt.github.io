@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+    text-align: center;
+}
+
+header h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-info p, .contact-info a {
+    margin: 5px 0;
+    color: #fff;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #0779e4;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: #0779e4 5px solid;
+}
+
+.project ul li, .job ul li {
+    background: none;
+    border-left: none;
+    padding-left: 0;
+}
